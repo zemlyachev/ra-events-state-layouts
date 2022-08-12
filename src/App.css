@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon-switch {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  margin-right: 0;
+  cursor: pointer;
+}
+
+.store-container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+img.image {
+  width: 100%;
+}
+
+span.product-name {
+  text-transform: uppercase;
+}
+
+span.product-color {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: dimgray;
+}
+
+span.product-price {
+  color: red;
+  font-size: 1.2rem;
+}
+
+button.add-to-cart {
+  color: red;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: red;
+
+  width: 140px;
+  margin-right: 10px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* cards */
+
+ul.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+li.shop-card {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.card-container {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 5px;
+  background-color: #f5f5f5;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-top-centered {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-mid-centered {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-bottom-left {
+  position: absolute;
+  bottom: 13px;
+  left: 22px;
+}
+
+.card-bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 0px;
+}
+
+/* list */
+
+li.shop-item {
+  list-style-type: none;
+  margin-bottom: 3px;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  height: 60px;
+}
+
+.products-item-img {
+  width: 60px;
+}
