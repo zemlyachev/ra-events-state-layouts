@@ -5,10 +5,10 @@ function ShopCard({ card }) {
     <div className="card-container">
       <img className="image" src={card.img} alt={card.name} />
       <div className="card-top-centered">
-      <span className="product-name">{card.name}</span>
+        <span className="product-name">{card.name}</span>
       </div>
       <div className="card-mid-centered">
-      <span className="product-color">{card.color}</span>
+        <span className="product-color">{card.color}</span>
       </div>
       <div className="card-bottom-left">
         <span className="product-price">{"$" + card.price}</span>
